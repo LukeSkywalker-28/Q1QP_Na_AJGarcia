@@ -1,0 +1,152 @@
+*{
+
+   margin: 0px;
+   padding: 0px;
+
+}
+
+#navbar{
+    border: 1px solid #224DBC;
+    margin: auto;
+    padding: 32.2px;
+    text-align: center;
+    background-color: #224DBC;
+    margin-top: 5px;
+}
+
+/*Navbar set to fixed position*/
+
+.links {
+    display: inline;
+}
+#navbar .links a{
+    font-family: 'AR One Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    float: right;
+    padding: 5px;
+    margin: 5px;
+    opacity: .60;
+    transition: 0.2s;
+}
+/*Hover animations for page navigation links*/
+#navbar .links a:hover{opacity: 1; transition: 0.4s;}
+#home{background-color: #224DBC; color: yellow;}
+#sleep{ background-color: #224DBC; color: yellow;}
+#ref{ background-color: #224DBC; color: yellow;}
+#data{ background-color: #224DBC; color: yellow;}
+#conclude{ background-color: #224DBC; color: yellow;}
+#info{background-color: #224DBC; color: yellow;}
+
+/*Footer now set to fixed position*/
+
+.footer{
+    overflow: hidden;
+    background-color: #224DBC;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: yellow;
+}
+
+.footer a{
+    float: right;
+    display: block;
+    background: #224DBC;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.index_banner h2{
+   color: yellow;
+}
+
+/*For texts in index page*/
+
+.index_banner h3{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #8000ff
+}
+
+/*Banner for index page*/
+
+.index_banner{
+    background-image: url(banner1.jpeg);
+    width: 100vw;
+    height: 100vh;
+}
+
+/*Banner for "Why Sleep is Important?" page*/
+
+.page2banner{
+    background-image: url(banner2.jpeg);
+    width: 100vw;
+    height: 100vh;
+}
+
+.page2banner h3{
+    color: yellow;
+}
+
+.databanner h2{
+    color: yellow;
+    font-family: 'AR One Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*Arranged pics*/
+
+.datapics img{
+    width: 1000;
+}
+
+/*Banner for database page*/
+
+.databanner{
+    background-image: url(banner3.jpg);
+    width: 100vw;
+    height: 100vh;
+}
+
+/*Banner for conclusion page*/
+
+.conclusionbanner{
+    background-image: url(banner3.jpg);
+    width: 100vw;
+    height: 100vh;
+}
+.conclusionbanner h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: yellow;
+}
+
+/*Banner for reference page*/
+
+.referencebanner{
+    background-image: url(banner2.jpeg);
+    width: 100vw;
+    height: 100vh;
+}
+
+.referencebanner a{
+color: yellow;
+}
+
+.aboutme{
+    font-family: Arial, Helvetica, sans-serif
+}
+
+/*Retains origional color of links*/
+
+a:visited{
+    text-decoration: none;
+    color: yellow;
+}
+
+
+
+
